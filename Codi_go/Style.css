@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.html{
+  scroll-behavior: smooth;
+}
+body {
+  background: #151D21;
+  color: white;
+  background-image: url('../images/bg.png');
+  background-attachment: fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+p {
+  color: black;
+}
+
+  
+
+.header h1 {
+  font-size: 40px;
+  
+}
+
+.middle{
+  text-align: center;
+  padding: 8%;
+}
+
+.write{
+  margin-top: 220px;
+}
+
+.middle header{
+  font-family: 'Roboto Thin';
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+
+section .mybutton {
+  font-family: 'Roboto';
+  font-size: 24px;
+  color: #151D21;
+  background: #ff7a7a;
+  display: inline-flex;
+  padding: 6px;
+  margin-top: 30px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  align-self: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: #ff7a7a;
+}
+
+header .logo a {
+background-image: url("logi.png");
+background-size: 114px;
+background-repeat: no-repeat;
+display: inline-block;
+height: 119px;
+width: 111px;
+text-indent: -999999px;
+position: relative;
+}
+
+li:first-child {
+  float: left; 
+}
+
+li {
+  display: inline-block;
+  padding-right: 7%;
+  margin: 10px 0 0 0;
+  font-size: 36px;
+}
+
+.topnav {
+  list-style: none;
+  font-family: 'Roboto Thin';
+  color: aliceblue;
+  margin: 50px 0 0 0;
+  text-align: right;
+}
+
+
+.por{
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+background-color: rgb(10, 10, 10);
+  color: white;
+  text-align: center;
+}
+
+.section{
+  text-align: center;
+  padding: 8%;
+  display: block;
+}
+.hi{
+  font-size: 35px;
+  padding: 70px;
+}
+.nov{
+  font-size: 25px;
+  font-family: 'Roboto Thin';
+}
+.per{
+  text-align: center;
+  margin-top: 50px;
+  height: 650px;
+}
+
+.contact{
+margin-top: 50px;
+font-size: 40px;
+}
+.condiv{
+  font-size: 50px;
+}
+.consec{
+  text-align: center;
+  padding: 8%;
+}
+.consec div{
+  font-family: 'Roboto Thin';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  display: inline-flex;
+  flex-direction: column;
+  align-content: center;
+  margin: 50px;
+}
+.email{
+  color: royalblue;
+}
+
+@media screen and (max-width: 1140px) {
+  section nav {
+      font-family: 'Roboto Thin';
+      font-size: 24px;
+      line-height: 36px;
+      text-align: left;
+      display: inline-flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  li {
+      font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+
+
+  li {
+      font-size: 14px;
+  }
+
+  section header {
+      font-size: 42px;
+  }
+
+  
+  section nav {
+      font-size: 16px;
+      line-height: 36px;
+  }
+
+  footer {
+      font-size: 10px;
+  }
+  header .logo a {
+      height: 50px;
+    width: 60px;
+      background-size: 50px;
+  }
+}
